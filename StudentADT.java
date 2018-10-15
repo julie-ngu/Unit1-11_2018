@@ -127,12 +127,12 @@ public class StudentADT {
 				}
 		    System.out.print("\n\n");
 		    
-		    System.out.println("Exit program? ");
+		    System.out.println("Exit program? (Y/N)");
 		    if(br.readLine().equalsIgnoreCase("Y")) {
 		    	moreStudents = false;
 		    	break;
 		    }
-		    
+		    //don't add else if or else so program continues unless you type Y
 		}
 	}
 }
