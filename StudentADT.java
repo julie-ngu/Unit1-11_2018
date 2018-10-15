@@ -128,9 +128,9 @@ public class StudentADT {
 				}
 		    System.out.print("\n\n");
 		    
-		    System.out.println("Exit program? ");
-		    if(br.readLine()== "Y") {
-		    	break;
+		    //System.out.println("Exit program? ");
+		    //if(br.readLine()== "Y") {
+		    	//break;
 		    }
 		    
 		}
