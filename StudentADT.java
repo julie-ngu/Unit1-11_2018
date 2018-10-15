@@ -39,8 +39,7 @@ enum GRADES {
     
     public String getGrade() {
         return this.grade;
-    }
-    
+    }    
 	
 }
 
@@ -113,7 +112,7 @@ public class StudentADT {
 		    
 		    System.out.println("Is student # " + (counter + 1) + " identified? Y/N");
 		    
-		    if (br.readLine()== "Y") {
+		    if (br.readLine() == "Y") {
 		    		identified = true;
 		    }
 		    
@@ -128,12 +127,12 @@ public class StudentADT {
 				}
 		    System.out.print("\n\n");
 		    
-		    //System.out.println("Exit program? ");
-		    //if(br.readLine()== "Y") {
-		    	//break;
+		    System.out.println("Exit program? ");
+		    if(br.readLine().equalsIgnoreCase("Y")) {
+		    	moreStudents = false;
+		    	break;
 		    }
 		    
 		}
 	}
-	
 }
